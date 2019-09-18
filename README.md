@@ -1,2 +1,2 @@
 # typeChain
-Making block chain by utilizing TypeScript
+Making Blockchain by utilizing TypeScript
