@@ -1,0 +1,21 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Making Blockchain by utilizing TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js",
+    "prestart": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katepark1009/typeChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katepark1009/typeChain/issues"
+  },
+  "homepage": "https://github.com/katepark1009/typeChain#readme"
+}
