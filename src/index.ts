@@ -1,11 +1,19 @@
-// const name = "kate",
-//     age = 10,
-//     gender = "male";
-
-const sayHi = (name:string, age:number, gender:string) => { //! optional argument => ?
-    console.log(`hello, ${name}, you are ${age} years old, ${gender}`);
+interface Human {
+    name: string;
+    age: number;
+    gender: string;
 }
 
-sayHi("kate", 22, "female");
+const person = {
+    name: 'kate',
+    age: 10,
+    gender: 'femalezzz'
+};
+
+const sayHi = (person: Human) => { //! optional argument => ?
+    console.log(`hello, ${person.name}, you are ${person.age} years old, ${person.gender}`);
+}
+
+sayHi(person);
 
 export {};
