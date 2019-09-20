@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.js",
-    "prestart": "tsc index.ts"
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/katepark1009/typeChain/issues"
   },
-  "homepage": "https://github.com/katepark1009/typeChain#readme"
+  "homepage": "https://github.com/katepark1009/typeChain#readme",
+  "dependencies": {
+    "tsc-watch": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3",
+    "typescript-tools": "^0.3.1"
+  }
 }
