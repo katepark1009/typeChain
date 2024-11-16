@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/katepark1009/typeChain#readme",
   "dependencies": {
-    "tsc-watch": "^4.0.0"
+    "tsc-watch": "^4.6.2"
   },
   "devDependencies": {
     "typescript": "^3.6.3",
